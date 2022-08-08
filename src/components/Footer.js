@@ -8,8 +8,8 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
-        </p>
+        Join us to improve in our Agriculture
+          </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
         </p>
@@ -60,12 +60,10 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              Jaydeep
-              <i class='fa fa-cube' />
-              {/* cube photo soccer-ball-o thumbs-up thumbs-o-up  */}
+              HackSquad
             </Link>
           </div>
-          <small class='website-rights'>Jaydeep © 2020</small>
+          <small class='website-rights'>HackSquad © 2020</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

@@ -1,8 +1,11 @@
 import React from 'react'
+import ImportancePage from '../ImportancePage'
 
 function Services() {
   return (
-    <div>Services</div>
+    <div>
+      <ImportancePage/>
+    </div>
   )
 }
 

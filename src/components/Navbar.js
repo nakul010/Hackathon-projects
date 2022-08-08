@@ -29,10 +29,8 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            NavBar <i class="fab fa-laravel"/>
-                        {/* 	fab fa-laravel
-                        	fab fa-react */}
-
+          HackSquad 
+          {/* <i class="fab fa-laravel"/> */}
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -49,7 +47,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Services
+                Importance
               </Link>
             </li>
             <li className='nav-item'>
@@ -58,7 +56,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Products
+                About
               </Link>
             </li>
 

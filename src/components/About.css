@@ -1,0 +1,13 @@
+.hero-section1{
+    background: url('../Images/Main about.jpg') top/cover no-repeat;
+    /* background: url('../Images/nature.jpg') top/cover no-repeat; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+  

@@ -1,0 +1,74 @@
+.formContainer{
+height: 100vh;
+width: 100vw;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 1rem;
+align-items: center;
+background-color: rgb(6, 106, 79);
+/* background-color: #131324; */
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+.brand img {
+    height: 5rem;
+}
+.brand h1 {
+    color: rgb(143, 218, 173);
+    /* color: white; */
+    text-transform: uppercase;
+}
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: white;
+  /* background-color: #00000076; */
+  border-radius: 2rem;
+  padding: 2rem 4rem;
+}
+.formContainer input {
+  background-color: transparent;
+  padding: 1rem;
+  border: 0.1rem solid rgb(6, 106, 106);
+  /* border: 0.1rem solid #4e0eff; */
+  border-radius: 0.5rem;
+  color: black;
+  width: 86%;
+  font-size: 1rem;
+}
+input :focus {
+    border: 0.1rem solid #997af0;
+    outline: none;
+}
+.formContainer button {
+  background-color: rgb(6, 106, 106);
+  /* background-color: #4e0eff; */
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+button:hover {
+    background-color: rgb(12, 150, 150);
+    /* background-color: #1cc2ec; */
+}
+span {
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+}
+a {
+  color: rgb(6, 225, 249);
+  /* color: #4e0eff; */
+    text-decoration: none;
+    font-weight: bold;
+}
